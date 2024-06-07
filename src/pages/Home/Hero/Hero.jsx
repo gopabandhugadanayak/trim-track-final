@@ -12,8 +12,8 @@ const Hero = () => {
                             <p className=''>Get started with Booksy to run your business,. Calendar, Booking, Marketing, and Payments all in one.</p>
                         </div>
                         <div className="flex flex-wrap items-center gap-5">
-                            <button className='px-7 py-3 rounded-lg bg-secondary font-bold uppercase'>Join Today</button>
-                            <button className='px-7 py-[10px] bg-opacity-80 hover:bg-white hover:text-black hover:outline-white duration-200  rounded-lg bg-transparent outline  font-bold uppercase'>View Courses</button>
+                            <button className='px-7 py-3 rounded-lg bg-secondary font-bold uppercase'><a href="/register">Join Today</a></button>
+                            <button className='px-7 py-[10px] bg-opacity-80 hover:bg-white hover:text-black hover:outline-white duration-200  rounded-lg bg-transparent outline  font-bold uppercase'><a href="/classes">services</a></button>
                         </div>
                     </div>
                 </div>
