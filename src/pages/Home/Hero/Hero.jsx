@@ -9,7 +9,7 @@ const Hero = () => {
                         <h3 className='md:text-4xl text-2xl'>WE PROVIDES</h3>
                         <h1 className='md:text-7xl text-4xl font-bold '>Best Hairdressers</h1>
                         <div className="md:w-1/2">
-                            <p className=''>Get started with Booksy to run your business,. Calendar, Booking, Marketing, and Payments all in one.</p>
+                            <p className=''>Get started with TrimTrack to run your business. Calendar, Booking, Marketing, and Payments all in one.</p>
                         </div>
                         <div className="flex flex-wrap items-center gap-5">
                             <button className='px-7 py-3 rounded-lg bg-secondary font-bold uppercase'><a href="/register">Join Today</a></button>

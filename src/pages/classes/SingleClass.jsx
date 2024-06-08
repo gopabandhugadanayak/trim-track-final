@@ -75,7 +75,7 @@ const SingleClass = () => {
         {/* breadcrumb or header */}
         <div className="breadcrumbs bg-primary py-20 mt-20 section-padding bg-cover bg-center bg-no-repeat">
           <div className="container text-center">
-            <h2>Course Details</h2>
+            <h2>Salon Details</h2>
           </div>
         </div>
         
@@ -91,7 +91,7 @@ const SingleClass = () => {
                       className=" rounded-md object-fut w-full h-full block"
                     />
                   </div>
-                  <h2 className="text-2xl mb-2">UI/UX Design and Graphics Learning Bootcamp 2022</h2>
+                  <h2 className="text-2xl mb-2">the Hair specialist</h2>
 
                   <div className="author-meta mt-6 sm:flex  lg:space-x-16 sm:space-x-5 space-y-5 sm:space-y-0 items-center">
                     <div className="flex space-x-4 items-center group">
@@ -106,7 +106,7 @@ const SingleClass = () => {
                       </div>
                       <div className="flex-1">
                         <p className=" text-secondary  ">
-                          Trainer
+                          Barber
                           <a href="#" className=" text-black">
                             : {course.instructorName}
                           </a>
@@ -129,10 +129,10 @@ const SingleClass = () => {
                         <a href="#tab1">Overview</a>
                       </li>
                       <li>
-                        <a href="#tab2">Carriculum</a>
+                        <a href="#tab2">ambiance</a>
                       </li>
                       <li>
-                        <a href="#tab3">Instructor</a>
+                        <a href="#tab3">Barber</a>
                       </li>
                       <li>
                         <a href="#tab4">Reviews</a>
@@ -143,7 +143,7 @@ const SingleClass = () => {
                         <div>
                           <h3 className=" text-2xl mt-8">Course Description</h3>
                           <p className="mt-4">
-                            This tutorial will help you learn quickly and
+                            we will  help you learn quickly and
                             thoroughly. Lorem ipsum, or lipsum as it sometimes
                             known, is dummy text used in laying out print,
                             graphic or web designs. Lorem ipsum dolor sit amet,
@@ -217,7 +217,7 @@ const SingleClass = () => {
                                   <img src="/logo.png" alt="" />
                                 </div>
                                 <span className="flex-1 text-black">
-                                  Paper &amp; Pencil
+                                  Paper &amp; 
                                 </span>
                               </div>
                               <div className=" bg-white  rounded px-5 py-[18px] flex  shadow-box2 space-x-[10px] items-center">
@@ -234,9 +234,9 @@ const SingleClass = () => {
                       </div>
                       <div id="tab2" className="tab-content">
                         <div>
-                          <h3 className=" text-2xl mt-8">Lesson Plan</h3>
+                          <h3 className=" text-2xl mt-8">About us</h3>
                           <p className="mt-4">
-                            This tutorial will help you learn quickly and
+                            we will help you learn quickly and
                             thoroughly. Lorem ipsum, or lipsum as it sometimes
                             known, is dummy text used in laying out print,
                             graphic or web designs. Lorem ipsum dolor sit amet,
@@ -254,7 +254,7 @@ const SingleClass = () => {
                             <h4 className=" text-2xl">This Course is For Beginners </h4>
                           </div>
                           <div>
-                            <h4 className=" text-2xl">What You will Learn?</h4>
+                            <h4 className=" text-2xl">What we provide?</h4>
                             <p className="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe repellendus voluptate eos molestiae fuga odit ipsam nemo tenetur quod eaque error voluptatibus sapiente quis quaerat veniam, reprehenderit dolorum nisi in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ipsum possimus sapiente minus facere est? Dolore necessitatibus eaque dolores magnam explicabo delectus harum aperiam animi! Fuga sapiente doloribus blanditiis rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab esse adipisci earum laboriosam eos fugit eius temporibus architecto hic reprehenderit ducimus soluta maxime sunt numquam quo consectetur, facere pariatur?</p>
                           </div>
                         </div>
@@ -290,7 +290,7 @@ const SingleClass = () => {
                         <div className="flex-1 space-x-3 flex items-center">
                           <FaUser className="inline-flex"/>
                           <div className=" text-black font-semibold">
-                            Instructor
+                            Barber
                           </div>
                         </div>
                         <div className="flex-none">{course.instructorName}</div>
@@ -300,7 +300,7 @@ const SingleClass = () => {
                         <div className="flex-1 space-x-3 flex items-center">
                           <MdBookOnline/>
                           <div className=" text-black font-semibold">
-                            Lectures
+                            services
                           </div>
                         </div>
                         <div className="flex-none">23</div>
@@ -320,20 +320,20 @@ const SingleClass = () => {
                         <div className="flex-1 space-x-3 flex items-center">
                           <FaUsers />
                           <div className=" text-black font-semibold">
-                            Enrolled
+                            booked
                           </div>
                         </div>
-                        <div className="flex-none">2k Students</div>
+                        <div className="flex-none">23</div>
                       </li>
 
                       <li className=" flex space-x-3 border-b border-[#ECECEC] mb-4 pb-4 last:pb-0 past:mb-0 last:border-0">
                         <div className="flex-1 space-x-3 flex items-center">
                           <FaLevelUpAlt />
                           <div className=" text-black font-semibold">
-                            Course level
+                            -
                           </div>
                         </div>
-                        <div className="flex-none">Intermediate</div>
+                        <div className="flex-none">premium</div>
                       </li>
 
                       <li className=" flex space-x-3 border-b border-[#ECECEC] mb-4 pb-4 last:pb-0 past:mb-0 last:border-0">
@@ -372,7 +372,7 @@ const SingleClass = () => {
                   </div>
 
                   <div className="wdiget">
-                    <h4 className=" widget-title">Related Courses</h4>
+                    <h4 className=" widget-title">Related services</h4>
                     <ul className="list">
                       <li className=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
                         <div className="flex-none ">
@@ -411,7 +411,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            Rs-150.00
                           </span>
                         </div>
                       </li>
@@ -430,7 +430,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            RS -250.00
                           </span>
                         </div>
                       </li>
@@ -449,7 +449,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            Rs-300.00
                           </span>
                         </div>
                       </li>

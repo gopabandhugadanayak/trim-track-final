@@ -223,7 +223,7 @@ const Footer = () => {
                         <br />
 
                         Created with &nbsp;
-                        <a className="text-secondary dark: underline transition hover:text-secondary dark:/75">Yoga Master</a>
+                        <a className="text-secondary dark: underline transition hover:text-secondary dark:/75">TrimTrack</a>
                     </p>
                 </div>
             </div>
