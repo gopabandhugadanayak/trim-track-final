@@ -38,7 +38,10 @@ const ShowInstructors = () => {
                                         </tbody></table>
 
                                     <div className="text-center my-3">
-                                        <a className="text-xs text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium" href="/classes/SingleClass">View Profile</a>
+                                    <Link to={`/class/${cls._id}`}><button className="px-4 py-2 mt-4 w-full mx-auto text-white disabled:bg-red-300 bg-secondary duration-300 rounded hover:bg-red-700">
+                                        View
+                                    </button></Link>
+                                        
                                     </div>
 
                                 </div>

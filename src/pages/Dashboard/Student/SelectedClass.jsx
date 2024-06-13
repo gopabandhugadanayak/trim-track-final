@@ -12,7 +12,7 @@ import { Pagination, ThemeProvider, createTheme } from '@mui/material';
 import { ScaleLoader } from 'react-spinners';
 
 const SelectedClass = () => {
-    useTitle('Selected Class | Yoga Master Selected Class');
+    useTitle('Selected Class | Trim Track Selected Services');
     const { currentUser } = useUser();
     const [loading, setLoading] = useState(true);
     const [classes, setClasses] = useState([]);
@@ -106,7 +106,7 @@ const SelectedClass = () => {
             </div>
             <div className="h-screen py-8">
                 <div className="container mx-auto px-4">
-                    <h1 className="text-2xl font-semibold mb-4">Shopping Cart</h1>
+                    <h1 className="text-2xl font-semibold mb-4">Cart</h1>
                     <div className="flex flex-col md:flex-row gap-4">
                         <div className="md:w-3/4">
                             <div className="bg-white rounded-lg shadow-md p-6 mb-4">
@@ -122,7 +122,7 @@ const SelectedClass = () => {
                                     </thead>
                                     <tbody>
                                         {
-                                            classes.length === 0 ? <tr><td colSpan='5' className='text-center text-2xl font-bold'>No Classes Found</td></tr> : // If there is no item in the cart
+                                            classes.length === 0 ? <tr><td colSpan='5' className='text-center text-2xl font-bold'>No Services Found</td></tr> : // If there is no item in the cart
                                                 paginatedData.map((item, idx) => {
                                                     const letIdx = (page - 1) * itemPerPage + idx + 1;
                                                     return <tr key={item._id}>

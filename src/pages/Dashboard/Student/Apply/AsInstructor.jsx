@@ -165,7 +165,7 @@ const AsInstructor = () => {
             </div>
             {
                 submittedData?.reject && <div className="">
-                    <p>You are not able to join with Instructor</p>
+                    <p>You are not able to join with salon</p>
                     <p className='font-bold'>Reason :</p>
                     <div className="w-1/2">
                         {submittedData?.reject}
