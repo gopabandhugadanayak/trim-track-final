@@ -49,9 +49,9 @@ const Classes = () => {
                     toast.promise(axiosSecure.post('/add-to-cart', data)
                         .then(res => {
                             console.log(res.data);
-                        })
+                        }),
 
-                        , {
+                          {
                             pending: 'Selecting...',
                             success: {
                                 render({ data }) {
